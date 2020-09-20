@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+@import "style-variables";
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.bg-pry{
+    background-color: $green-primary !important;
+}
+
+.bg-blk{
+    background-color: $black-primary !important;
+}
+
+.txt-blk{
+    color: $black-primary;
+}
+
+.txt-pry{
+    color: $green-primary;
+}
+
+.card{
+    border-radius: 1vh;
+    overflow: hidden;
+}
