@@ -35,5 +35,10 @@
 }
 
 .round{
-    border-radius: 2vmin;
+    border-radius: 1vmin;
+}
+
+.border-pry{
+    border: 1px solid;
+    border-color: $green-seccondary !important; 
 }
