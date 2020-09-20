@@ -1,0 +1,27 @@
+@import "../../../style-variables";
+
+.body-fake{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 89.2vh;
+    max-width: 100%;
+}
+
+.title{
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: large;
+}
+
+img{
+    width: 50%;
+    border-radius: 2vmin;
+}

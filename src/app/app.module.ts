@@ -11,6 +11,7 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { ErrorNotFoundComponent } from './pages/error-not-found/error-not-found.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { CardsComponent } from './components/cards/cards.component';
+import { FormComponent } from './components/form/form.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CardsComponent } from './components/cards/cards.component';
     AboutUsComponent,
     ErrorNotFoundComponent,
     SliderComponent,
-    CardsComponent
+    CardsComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
